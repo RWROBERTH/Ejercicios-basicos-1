@@ -1,0 +1,16 @@
+Algoritmo intercambio_numerico
+	Definir p, q, aux como numerico
+	Escribir "Intercambio"
+	Escribir "-----------"
+	Escribir "invertiremos los valores para las variables P y Q"
+	Escribir "Ingrese un valor numerico para P"
+	leer p
+	Escribir "Ingrese un valor numerico para q"
+	leer q
+	aux<-p
+	p<-q
+	q<-aux
+	Escribir "el valor de P es: ", p
+	Escribir "el valor de Q es: ", q
+	Escribir "gracias"
+FinAlgoritmo
