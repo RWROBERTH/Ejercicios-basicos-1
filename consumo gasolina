@@ -1,0 +1,21 @@
+Algoritmo consumo_gasolina
+	Definir n1, n2, kiloposibles, gasolinarestante, gasolinagastada Como Real
+	Escribir "Consumo de gasolina"
+	Escribir "-------------------"
+	Escribir "El sistema mostrará el consumó de gasolina gastado en el recorrido,"
+	Escribir "gasolina restante y kilómetros posibles a recorrer"
+	Escribir "ingresé la gasolina cargada en litros"
+	leer n1
+	Escribir "ingresé los kilometros recorridos"
+	leer n2
+	gasolinagastada=0.09*n2
+	gasolinarestante=n1-gasolinagastada
+	kiloposibles=gasolinarestante/0.09
+	Limpiar Pantalla
+	Escribir "litros cargados: ",n1
+	Escribir "kilómetros recorridos: ", n2
+	Escribir "gasolina gastada: ", gasolinagastada
+	Escribir "gasolina restante: ", gasolinarestante
+	Escribir "kilómetros posibles a recorrer: ", kiloposibles
+	Escribir "gracias"
+FinAlgoritmo
