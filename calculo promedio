@@ -1,0 +1,19 @@
+Algoritmo precio_promedio
+	Definir n1, n2, n3, n4, n5 Como Real
+	definir c1 Como Caracter
+	Escribir "Conseguir el precio promedio para un producto, necesitaremos 3 precios diferentes en bolivianos"
+	escribir "Escribir el nombre del producto"
+	leer c1
+	Escribir "Escribir el precio numero 1"
+	leer n1
+	Escribir "Escribir el precio numero 2"
+	leer n2
+	Escribir "Escribir el precio numero 3"
+	leer n3
+	n4=n1+n2+n3
+	n5=n4/3
+	Limpiar Pantalla
+	Escribir "El precio promedio del producto:", c1
+	Escribir "es de:",n5, "bs"
+	Escribir "Gracias"
+FinAlgoritmo
